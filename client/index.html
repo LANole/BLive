@@ -13,15 +13,11 @@
   <meta name="slurp" content="noodp, noydir">
 
   <meta content="/assets/images/Tom_Bridgeman_BigBearSnowTrail.jpg" itemprop="image">
-  <link href="/assests/images/tom_bridgeman.ico" rel="shortcut icon">
+  <!--<link href="/assets/images/tom_bridgeman.ico" rel="shortcut icon">-->
 
   <base href="/" />
 
-	<title>Tom Bridgeman ~ Full Stack Developer</title>
-
-  <!-- <link rel="icon" href="favicon.ico" type="image/x-icon" /> -->
-  <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /> -->
-  <!-- <link rel="icon" type="image/gif" href="animated_favicon1.gif" > -->
+	<title>Tom Bridgeman ~ Full Stack Developer</title>  
 
   <link href="/assets/bootstrap/css/bootstrap.css" rel="stylesheet">
   <link href="/assets/css/carousel.css" rel="stylesheet">
@@ -93,36 +89,44 @@
       </a>
     </div>
 
-    <div class="container marketing">      
-      <div class="row">
-        <div class="col-lg-4">
-          <a href="#/about/">
-            <img class="img-circle" src="/assets/images/Tom_Bridgeman_BigBearSnowTrail.jpg" alt="Generic placeholder image" width="140" height="140">
-          </a>
-          <h2>About Me</h2>
-          <p>Just a little background on how I got here.</p>
-          <p><a class="btn btn-default" href="/about" role="button">Click ME &raquo;</a></p>
-        </div>
+    <div class="container marketing">
+        <div class="row">
+          <div class="col-md-3">
+            <a href="/about">
+                <img class="img-circle" src="\assets\images\Tom_Bridgeman_BigBearSnowTrail.jpg" alt="Tom Bridgeman in Big Bear on Snow Trail" width="140" height="140">
+                </a>
+              <h2>About Me</h2>
+                <p>How I got here & what I can do.</p>
+                <p><a class="btn btn-default" href="/about" role="button">Click ME &raquo;</a></p>
+            </div>
+          
+          <div class="col-md-3">
+            <a href="/developer">
+                  <img class="img-circle" src="\assets\images\code.jpg" alt="Developer code" width="140" height="140">
+                </a>
+                <h2>Knowledge</h2>
+                <p>My infinite wisdom and projects.</p>
+                <p><a class="btn btn-default" href="/developer" role="button">Click Here &raquo;</a></p>
+          </div>
 
-        <div class="col-lg-4">
-          <a href="#/developer/">
-            <img class="img-circle" src="/assets/images/code.jpg" alt="Generic placeholder image" width="140" height="140">
-          </a>
-          <h2>What I know</h2>
-          <p>Just that... my infinite wisdom and projects.</p>
-          <p><a class="btn btn-default" href="/developer" role="button">Click Here &raquo;</a></p>
+          <div class="col-md-3">
+            <a href="/blog">
+                <img class="img-circle" src="\assets\images\TBDMEANGrey.png" alt="Tom Bridgeman's Blog" width="140" height="140">
+                </a>
+                <h2>The Blog</h2>
+                <p>What am I saying today?</p>
+                <p><a class="btn btn-default" href="/blog" role="button">Read Me &raquo;</a></p>
+          </div>
+          <div class="col-md-3">
+            <a href="/contact">
+                <img class="img-circle" src="\assets\images\email_logo.jpg" alt="Contact me via email" width="140" height="140">
+                </a>
+                <h2>Contact me</h2>
+                <p>Website help? Recruiter?</p>
+                <p><a class="btn btn-default" href="/contact" role="button">Click Now &raquo;</a></p>
+          </div>
         </div>
-
-        <div class="col-lg-4">
-          <a href="#/contact/">
-            <img class="img-circle" src="/assets/images/email_logo.jpg" alt="Generic placeholder image" width="140" height="140">
-          </a>
-          <h2>Contact me</h2>
-          <p>Website help? Are you a recruiter? Shoot me an email.</p>
-          <p><a class="btn btn-default" href="/contact" role="button">Click Now &raquo;</a></p>
-        </div>
-      </div>     
-    </div>
+      </div>
 
 <div ng-view=""></div> 
   

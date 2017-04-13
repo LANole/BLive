@@ -17,7 +17,9 @@ var Bridgeman = angular.module('Bridgeman', ['ngRoute', 'ngMessages']);
 				}).when('/about', {
 					templateUrl:'partials/about.html',					
 				}).when('/developer', {
-					templateUrl: 'partials/developer.html',					
+					templateUrl: 'partials/developer.html',
+				}).when('/blog', {
+					templateUrl: 'partials/blog.html',					
 				}).when('/contact', {
 					templateUrl: 'partials/contact.html',
 					controller: 'contactController'

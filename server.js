@@ -1,9 +1,12 @@
-var express = require('express')
+var express = require('express');
+var favicon = require('serve-favicon');
 var bodyParser = require('body-parser');
 var Mailgun = require('mailgun-js');
 var path = require('path');
 
 var app = express();
+
+app.use(favicon(path.join(__dirname, 'client/assets/images', 'TBDMEANGrey.ico')))
 
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(bodyParser.json({extended:true}));
