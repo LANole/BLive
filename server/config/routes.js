@@ -4,12 +4,12 @@ module.exports = function(app){
 	
 	app.post('/contact', function(req,res){
 
-		var api_key = 'key-2451a2b90a87be616ab68b8f7c8f97ea';
-		var domain = 'sandbox7dedeb0d5d384b6a8ce4f49165204257.mailgun.org';
+		var api_key = '';
+		var domain = '';
 		var mailgun = require('mailgun-js')({apiKey: api_key, domain: domain});
 		 
 		var data = {
-		  from: 'Website inquiry <postmaster@sandbox7dedeb0d5d384b6a8ce4f49165204257.mailgun.org>',
+		  from: 'Website inquiry <>',
 		  to: 'tbridgeman78@gmail.com',
 		  subject: req.body.first_name+" has sent you a message",
 		  html:
